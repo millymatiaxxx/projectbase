@@ -1,0 +1,17 @@
+body{
+    background-color: grey;
+}
+.container{
+    display: flex;
+    background-color: black;
+    gap: 10px;
+    /* height: 600px; */
+    justify-content: center;
+    align-items: center;
+    /* flex-flow: column wrap; */
+}
+.item1{
+    width: 200px;
+    height:200px;
+    background-color: aqua;
+}

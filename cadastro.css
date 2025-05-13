@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    font-family: Impact;
+}
+header{
+    background-color: aqua;
+}
+h5{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+footer{
+    background-color: aqua;
+}
+p{
+    text-align: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+
+
+div{
+    width: 450px;
+    height: 150px;
+    background-color: white;
+    margin: 50px;
+    text-align: center;margin: 50px}
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h3{
+        text-align: center;
+        font-family: monospace;
+        margin-top: 35px;
+    }
+
+
+    fieldset{
+        margin: 40px auto 0 auto;
+        display: block;
+        min-width: 300px;
+        text-align: center;
+    }
+    footer{
+position: absolute;
+left: 0;bottom: 0;width: 100%;
+}

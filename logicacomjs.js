@@ -81,7 +81,7 @@ else (tipodeassinatura == "ultra"){
         alert("O seu plano será R$"+valordoultra)
     }
 
-}*/
+}
 let daysOfWeek = ["Raquel", "Maraisa",80,40,10]; 
 console.log(daysOfWeek[1])
 console.log(daysOfWeek.length)
@@ -95,3 +95,33 @@ daysOfWeek.sort()
 daysOfWeek.reverse()
 alert("Atualmente os alunos da escola são"+daysOfWeek)
 alert(daysOfWeek.indexOf("Arthur"))
+
+function saudar(){
+    alert ("Desejo uma boa navegação no nosso site!")
+}
+saudar()
+
+//Com Return e Parametro
+
+function dobrarNumero(numero){
+    return numero * 2
+}
+let resultado = dobrarNumero(888)
+alert ("O cálculo do dobro do número"+resultado)
+//com Parametro
+function Cumprimentar (nome){
+    alert("Olá,"+nome+" como está seu dia?")
+}
+let nomedoaluno = prompt("Digite o seu nome jovem:")
+Cumprimentar(nomedoaluno)
+// Recursiva 
+ 
+function contagemRegressiva(numero){
+    console.log(numero)
+    if(numero ===0){
+        console.log("Chegou");
+        return ;
+    }
+    contagemRegressiva(numero-1)
+}
+contagemRegressiva(10)*/
